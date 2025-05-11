@@ -13,7 +13,13 @@ let NumeroIncrem // number
 for (let i = 0; i < 100; i++) {
     NumeroIncrem = i + 1
     console.log(`Ciclo=${i} NumIncrem=${NumeroIncrem}`)
+    //  calcolo del modulo del primo divisore
+    let Result_FirtModule = NumeroIncrem % PRIMO_DIVISORE //numeber
+    console.log("Moudulo di " + PRIMO_DIVISORE + " = " + Result_FirtModule)
+    //  calcolo del modulo del secondo divisore
+    let Result_SecondModule = NumeroIncrem % SECONDO_DIVISORE //number
+    console.log("Moudulo di " + SECONDO_DIVISORE + " = " + Result_SecondModule)
+    //  CONTROLLO sull'output
+
+    console.log("--------------------------")
 }
-//  calcolo del modulo del primo divisore
-//  calcolo del modulo del secondo divisore
-//  CONTROLLO sull'output
