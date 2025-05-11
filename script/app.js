@@ -12,13 +12,13 @@ let NumeroIncrem // number
 // Inizio Ciclo per conteggio
 for (let i = 0; i < 100; i++) {
     NumeroIncrem = i + 1
-    console.log(`Ciclo=${i} NumIncrem=${NumeroIncrem}`)
+    // console.log(`Ciclo=${i} NumIncrem=${NumeroIncrem}`)
     //  calcolo del resto con il primo divisore
     let Result_FirtModule = NumeroIncrem % PRIMO_DIVISORE //numeber
-    console.log("Moudulo di " + PRIMO_DIVISORE + " = " + Result_FirtModule)
+    // console.log("Moudulo di " + PRIMO_DIVISORE + " = " + Result_FirtModule)
     //  calcolo del rsto  con il secondo divisore
     let Result_SecondModule = NumeroIncrem % SECONDO_DIVISORE //number
-    console.log("Moudulo di " + SECONDO_DIVISORE + " = " + Result_SecondModule)
+    // console.log("Moudulo di " + SECONDO_DIVISORE + " = " + Result_SecondModule)
     // --- CONTROLLO sull'output ---
     // SE il resto è 0 con il primo divisore restitusce --> Fizz
     if (Result_FirtModule == 0 && Result_SecondModule != 0) {
