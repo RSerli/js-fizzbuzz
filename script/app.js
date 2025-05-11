@@ -2,8 +2,11 @@ console.log("FuzzBuzz")
 
 // ---  VARIABILI ---
 // Primo Divisore
+const PRIMO_DIVISORE = 3
 // Secondo Dividsore
+const SECONDO_DIVISORE = 5
 // Numero Incrementale
+let NumeroIncrem // number
 
 // --- MAIN ---
 // Inizio Ciclo per conteggio
